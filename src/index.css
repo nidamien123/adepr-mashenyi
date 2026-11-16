@@ -1,0 +1,35 @@
+export const dashboardStats = [
+  { title: 'Total Members', value: '1,284', subtitle: '+48 since last month' },
+  { title: 'Attendance', value: '86%', subtitle: 'Average weekly participation' },
+  { title: 'Monthly Tithe', value: 'RWF 6.9M', subtitle: 'Compared to last month' },
+  { title: 'Upcoming Events', value: '09', subtitle: '3 this week' },
+];
+
+export const members = [
+  { name: 'Mugisha Jean', cell: 'Cyome', role: 'Elder', status: 'Active' },
+  { name: 'Uwimana Grace', cell: 'Rusumu', role: 'Member', status: 'Active' },
+  { name: 'Nkuranga Peter', cell: 'Rusumu', role: 'Youth Leader', status: 'Active' },
+  { name: 'Munezero Sarah', cell: 'Cyome', role: 'Choir', status: 'Active' },
+  { name: 'Kamanzi David', cell: 'Gatumba', role: 'Sunday School', status: 'Inactive' },
+];
+
+export const attendanceRecords = [
+  { name: 'Mugisha Jean', group: 'Sunday Service', leader: 'Rev. Ndayisaba', total: '248', rate: '92%', status: 'Present' },
+  { name: 'Uwimana Grace', group: 'Choir', leader: 'M. Elysé', total: '85', rate: '88%', status: 'Late' },
+  { name: 'Nkuranga Peter', group: 'Youth', leader: 'A. Kabera', total: '74', rate: '81%', status: 'Present' },
+  { name: 'Munezero Sarah', group: 'Women Fellowship', leader: 'M. Iriza', total: '68', rate: '90%', status: 'Present' },
+];
+
+export const finances = [
+  { title: 'Sunday Tithe', category: 'Tithe', amount: 'RWF 2,450,000', date: '2026-11-12', type: 'income' },
+  { title: 'Youth Outreach', category: 'Project', amount: 'RWF 780,000', date: '2026-11-10', type: 'expense' },
+  { title: 'Offering', category: 'Offering', amount: 'RWF 1,120,000', date: '2026-11-08', type: 'income' },
+  { title: 'Church Building Repairs', category: 'Maintenance', amount: 'RWF 560,000', date: '2026-11-05', type: 'expense' },
+];
+
+export const events = [
+  { title: 'Sunday Worship Service', day: 'Sun', date: '17', time: '09:00 AM', location: 'Main Church', status: 'Confirmed' },
+  { title: 'Prayer Meeting', day: 'Tue', date: '19', time: '18:00 PM', location: 'Prayer Hall', status: 'Open' },
+  { title: 'Youth Gathering', day: 'Sat', date: '23', time: '15:00 PM', location: 'School Grounds', status: 'Planned' },
+  { title: 'Women Fellowship', day: 'Thu', date: '21', time: '17:30 PM', location: 'Community Center', status: 'Confirmed' },
+];
